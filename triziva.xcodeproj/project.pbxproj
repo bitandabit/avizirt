@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F4152631F6F3CD100C38899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4152621F6F3CD100C38899 /* main.m */; };
+		7F4152661F6F3CD100C38899 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4152651F6F3CD100C38899 /* AppDelegate.m */; };
+		7F4152691F6F3CD100C38899 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4152681F6F3CD100C38899 /* ViewController.m */; };
+		7F41526C1F6F3CD100C38899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F41526A1F6F3CD100C38899 /* Main.storyboard */; };
+		7F41526E1F6F3CD100C38899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F41526D1F6F3CD100C38899 /* Assets.xcassets */; };
+		7F4152711F6F3CD100C38899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F41526F1F6F3CD100C38899 /* LaunchScreen.storyboard */; };
+		7F41527C1F6F3CD100C38899 /* trizivaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F41527B1F6F3CD100C38899 /* trizivaTests.m */; };
+		7F4152871F6F3CD100C38899 /* trizivaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4152861F6F3CD100C38899 /* trizivaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F4152781F6F3CD100C38899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F4152561F6F3CD100C38899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F41525D1F6F3CD100C38899;
+			remoteInfo = triziva;
+		};
+		7F4152831F6F3CD100C38899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F4152561F6F3CD100C38899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F41525D1F6F3CD100C38899;
+			remoteInfo = triziva;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F41525E1F6F3CD100C38899 /* triziva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = triziva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4152621F6F3CD100C38899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F4152641F6F3CD100C38899 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F4152651F6F3CD100C38899 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F4152671F6F3CD100C38899 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F4152681F6F3CD100C38899 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F41526B1F6F3CD100C38899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F41526D1F6F3CD100C38899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F4152701F6F3CD100C38899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F4152721F6F3CD100C38899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4152771F6F3CD100C38899 /* trizivaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trizivaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F41527B1F6F3CD100C38899 /* trizivaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trizivaTests.m; sourceTree = "<group>"; };
+		7F41527D1F6F3CD100C38899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4152821F6F3CD100C38899 /* trizivaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trizivaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4152861F6F3CD100C38899 /* trizivaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trizivaUITests.m; sourceTree = "<group>"; };
+		7F4152881F6F3CD100C38899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F41525B1F6F3CD100C38899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4152741F6F3CD100C38899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F41527F1F6F3CD100C38899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F4152551F6F3CD100C38899 = {
+			isa = PBXGroup;
+			children = (
+				7F4152601F6F3CD100C38899 /* triziva */,
+				7F41527A1F6F3CD100C38899 /* trizivaTests */,
+				7F4152851F6F3CD100C38899 /* trizivaUITests */,
+				7F41525F1F6F3CD100C38899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F41525F1F6F3CD100C38899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F41525E1F6F3CD100C38899 /* triziva.app */,
+				7F4152771F6F3CD100C38899 /* trizivaTests.xctest */,
+				7F4152821F6F3CD100C38899 /* trizivaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F4152601F6F3CD100C38899 /* triziva */ = {
+			isa = PBXGroup;
+			children = (
+				7F4152641F6F3CD100C38899 /* AppDelegate.h */,
+				7F4152651F6F3CD100C38899 /* AppDelegate.m */,
+				7F4152671F6F3CD100C38899 /* ViewController.h */,
+				7F4152681F6F3CD100C38899 /* ViewController.m */,
+				7F41526A1F6F3CD100C38899 /* Main.storyboard */,
+				7F41526D1F6F3CD100C38899 /* Assets.xcassets */,
+				7F41526F1F6F3CD100C38899 /* LaunchScreen.storyboard */,
+				7F4152721F6F3CD100C38899 /* Info.plist */,
+				7F4152611F6F3CD100C38899 /* Supporting Files */,
+			);
+			path = triziva;
+			sourceTree = "<group>";
+		};
+		7F4152611F6F3CD100C38899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F4152621F6F3CD100C38899 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F41527A1F6F3CD100C38899 /* trizivaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F41527B1F6F3CD100C38899 /* trizivaTests.m */,
+				7F41527D1F6F3CD100C38899 /* Info.plist */,
+			);
+			path = trizivaTests;
+			sourceTree = "<group>";
+		};
+		7F4152851F6F3CD100C38899 /* trizivaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F4152861F6F3CD100C38899 /* trizivaUITests.m */,
+				7F4152881F6F3CD100C38899 /* Info.plist */,
+			);
+			path = trizivaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F41525D1F6F3CD100C38899 /* triziva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F41528B1F6F3CD100C38899 /* Build configuration list for PBXNativeTarget "triziva" */;
+			buildPhases = (
+				7F41525A1F6F3CD100C38899 /* Sources */,
+				7F41525B1F6F3CD100C38899 /* Frameworks */,
+				7F41525C1F6F3CD100C38899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = triziva;
+			productName = triziva;
+			productReference = 7F41525E1F6F3CD100C38899 /* triziva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F4152761F6F3CD100C38899 /* trizivaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F41528E1F6F3CD100C38899 /* Build configuration list for PBXNativeTarget "trizivaTests" */;
+			buildPhases = (
+				7F4152731F6F3CD100C38899 /* Sources */,
+				7F4152741F6F3CD100C38899 /* Frameworks */,
+				7F4152751F6F3CD100C38899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F4152791F6F3CD100C38899 /* PBXTargetDependency */,
+			);
+			name = trizivaTests;
+			productName = trizivaTests;
+			productReference = 7F4152771F6F3CD100C38899 /* trizivaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F4152811F6F3CD100C38899 /* trizivaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4152911F6F3CD100C38899 /* Build configuration list for PBXNativeTarget "trizivaUITests" */;
+			buildPhases = (
+				7F41527E1F6F3CD100C38899 /* Sources */,
+				7F41527F1F6F3CD100C38899 /* Frameworks */,
+				7F4152801F6F3CD100C38899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F4152841F6F3CD100C38899 /* PBXTargetDependency */,
+			);
+			name = trizivaUITests;
+			productName = trizivaUITests;
+			productReference = 7F4152821F6F3CD100C38899 /* trizivaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F4152561F6F3CD100C38899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Caleb Arendse";
+				TargetAttributes = {
+					7F41525D1F6F3CD100C38899 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YWY4QSGB3Y;
+						ProvisioningStyle = Automatic;
+					};
+					7F4152761F6F3CD100C38899 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YWY4QSGB3Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F41525D1F6F3CD100C38899;
+					};
+					7F4152811F6F3CD100C38899 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YWY4QSGB3Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F41525D1F6F3CD100C38899;
+					};
+				};
+			};
+			buildConfigurationList = 7F4152591F6F3CD100C38899 /* Build configuration list for PBXProject "triziva" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F4152551F6F3CD100C38899;
+			productRefGroup = 7F41525F1F6F3CD100C38899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F41525D1F6F3CD100C38899 /* triziva */,
+				7F4152761F6F3CD100C38899 /* trizivaTests */,
+				7F4152811F6F3CD100C38899 /* trizivaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F41525C1F6F3CD100C38899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4152711F6F3CD100C38899 /* LaunchScreen.storyboard in Resources */,
+				7F41526E1F6F3CD100C38899 /* Assets.xcassets in Resources */,
+				7F41526C1F6F3CD100C38899 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4152751F6F3CD100C38899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4152801F6F3CD100C38899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F41525A1F6F3CD100C38899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4152691F6F3CD100C38899 /* ViewController.m in Sources */,
+				7F4152661F6F3CD100C38899 /* AppDelegate.m in Sources */,
+				7F4152631F6F3CD100C38899 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4152731F6F3CD100C38899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F41527C1F6F3CD100C38899 /* trizivaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F41527E1F6F3CD100C38899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4152871F6F3CD100C38899 /* trizivaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F4152791F6F3CD100C38899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F41525D1F6F3CD100C38899 /* triziva */;
+			targetProxy = 7F4152781F6F3CD100C38899 /* PBXContainerItemProxy */;
+		};
+		7F4152841F6F3CD100C38899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F41525D1F6F3CD100C38899 /* triziva */;
+			targetProxy = 7F4152831F6F3CD100C38899 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F41526A1F6F3CD100C38899 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F41526B1F6F3CD100C38899 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F41526F1F6F3CD100C38899 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4152701F6F3CD100C38899 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F4152891F6F3CD100C38899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F41528A1F6F3CD100C38899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F41528C1F6F3CD100C38899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YWY4QSGB3Y;
+				INFOPLIST_FILE = triziva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitandabit.triziva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F41528D1F6F3CD100C38899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YWY4QSGB3Y;
+				INFOPLIST_FILE = triziva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitandabit.triziva;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F41528F1F6F3CD100C38899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YWY4QSGB3Y;
+				INFOPLIST_FILE = trizivaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitandabit.trizivaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/triziva.app/triziva";
+			};
+			name = Debug;
+		};
+		7F4152901F6F3CD100C38899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YWY4QSGB3Y;
+				INFOPLIST_FILE = trizivaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitandabit.trizivaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/triziva.app/triziva";
+			};
+			name = Release;
+		};
+		7F4152921F6F3CD100C38899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YWY4QSGB3Y;
+				INFOPLIST_FILE = trizivaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitandabit.trizivaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = triziva;
+			};
+			name = Debug;
+		};
+		7F4152931F6F3CD100C38899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YWY4QSGB3Y;
+				INFOPLIST_FILE = trizivaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bitandabit.trizivaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = triziva;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F4152591F6F3CD100C38899 /* Build configuration list for PBXProject "triziva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4152891F6F3CD100C38899 /* Debug */,
+				7F41528A1F6F3CD100C38899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F41528B1F6F3CD100C38899 /* Build configuration list for PBXNativeTarget "triziva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F41528C1F6F3CD100C38899 /* Debug */,
+				7F41528D1F6F3CD100C38899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F41528E1F6F3CD100C38899 /* Build configuration list for PBXNativeTarget "trizivaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F41528F1F6F3CD100C38899 /* Debug */,
+				7F4152901F6F3CD100C38899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F4152911F6F3CD100C38899 /* Build configuration list for PBXNativeTarget "trizivaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4152921F6F3CD100C38899 /* Debug */,
+				7F4152931F6F3CD100C38899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F4152561F6F3CD100C38899 /* Project object */;
+}

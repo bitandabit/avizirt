@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+@property (weak, nonatomic) IBOutlet UIButton *imo;
+- (void)logMsg:(NSString*)msg;
 @end
 
